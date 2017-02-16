@@ -11,7 +11,7 @@ spring:
           - kafka
       bindings:
         ordersIn:
-          group: customer-management-service
+          group: customer-management-dql-service
           destination: error.es-orders.customer-management-service
         
 server:
